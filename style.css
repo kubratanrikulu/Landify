@@ -1,0 +1,227 @@
+body{
+    font-family: 'Inter', sans-serif!important;
+}
+ul, ol, dl {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a, button {
+    display: inline-block;
+}
+.text-line{
+    text-decoration: line-through;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+header{
+    background-image: url(./img/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .navbar-toggler {
+    border: none;
+    border-color: rgba(0,0,0,0);
+}
+.navbar ul li a{
+    font-size: 1px;
+    font-style: Bold;
+    line-height: 20px;
+    color: #111827!important;
+    margin-left: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+.watch{
+    background-color: transparent;
+    color: #7C3AED;
+    border: transparent;
+}
+button{
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    border: transparent;
+    background-color: #7C3AED;
+}
+.title{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: bold;
+}
+.brand{
+    border-bottom: 1px solid #E5E7EB;
+    border-top: 1px solid #E5E7EB;
+}
+.brand img{
+    padding: 30px 0px;
+}
+.brand .col{
+    display: flex;
+    justify-content: center;
+}
+.section-2 h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.section-2 p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.content h3{
+    font-size: 30px;
+    font-style: Bold;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.customer{
+    background-color: #D5FAFC;
+}
+.part h1{
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -1px;
+}
+.white .col{
+    border-radius: 8px;
+    padding: 0rem 1rem ;
+    box-shadow:#1118271A 2px 2px 2px;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.white h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    font-weight: 700;
+}
+.section-3 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.customer h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.col-10 p:last-child{
+    color: #6B7280;
+    font-size: 14px;
+}
+.comment .col-2{
+    padding-right: 0!important;
+}
+.comment .col-10{
+    padding-left: 0!important;
+}
+.footer-logo{
+    width: 50px;
+    height: 25px;
+}
+.bg{
+    background-image: url(./img/Quote\ mark\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+    background-size: 140px;
+    justify-content: center;
+}
+.bg-text{
+    margin-left: 11rem;
+    margin-top: 2rem;
+}
+.second{
+    margin-top: 5rem;
+}
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 700px;
+   }
+    .navigation{
+        flex-direction: row-reverse;
+        margin-left: 5px;
+   }
+    .white{
+        justify-content: center!important;
+        margin-left: 0;
+   }
+    .content h3{
+        font-size: 16px;
+        line-height: 20px;
+   }
+    footer ul li a{
+        font-size: 14px;
+   }
+    footer p{
+        font-size: 10px;
+   }
+    .stores{
+        margin-left: 12rem;
+   }
+    .bg-text{
+        margin: 0;
+   }
+    .stores{
+        display: flex;
+        justify-content: flex-end;
+   }
+    .second{
+        margin: 0;
+   }
+}
+/*MOBILE*/
+@media screen and (max-width: 576px) {
+    .banner{
+        margin-top: 2rem!important;
+   }
+    .brand .col{
+        display: flex;
+        justify-content: center;
+   }
+    .mobile{
+        margin-top: 2rem;
+   }
+    .mobile img {
+        width: 100%;
+   }
+    .banner button{
+        margin-top: 2rem;
+   }
+    .white{
+        padding: 1rem;
+   }
+    .part{
+        margin-top: 0!important;
+   }
+    footer{
+        word-break: break-all;
+   }
+    .customer-logo{
+        margin-left: 5px;
+   }
+    .bg-text{
+        margin: 0!important;
+        font-size: 30px;
+        font-weight: 400;
+   }
+    .white{
+        margin-left: 0;
+        margin-right: 0!important;
+   }
+    .white .col{
+        padding: 1rem;
+        margin-left: 0rem!important;
+        margin-top: 0rem;
+   }
+}
